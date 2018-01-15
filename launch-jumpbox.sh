@@ -19,7 +19,7 @@ sed -ie "s|Exec=chromium-browser %U|Exec=chromium-browser http://www.mapr.com|g"
 rm -rf /headless/Desktop/chromium-browser.desktope
 
 # Workaround to set the env variable
-sed -i "s/MAPR_HOST/$MAPR_CLDB_HOSTS/g" /headless/Desktop/Bootcamp_url/*.desktop
+sed -i "s/MAPR_HOST/$MAPR_CLDB_HOSTS/g" /headless/Desktop/Bootcamp/*.desktop
 sed -i "s/MAPR_HOST/$MAPR_CLDB_HOSTS/g" /mount-maprfs-script.sh
 
 # Make all hyperlinks executable

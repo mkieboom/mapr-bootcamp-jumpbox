@@ -25,10 +25,10 @@ ADD launch-jumpbox.sh /launch-jumpbox.sh
 RUN sudo -E chmod +x /launch-jumpbox.sh
 
 # Add the desktop hyperlinks
-ADD desktop_shortcuts/*.desktop /headless/Desktop/Bootcamp_url/
+ADD desktop_shortcuts/*.desktop /headless/Desktop/Bootcamp/
 
 # Make all hyperlinks executable
-RUN chmod +x  /headless/Desktop/Bootcamp_url/*.desktop
+RUN chmod +x  /headless/Desktop/Bootcamp/*.desktop
 RUN chmod +x /headless/Desktop/*.desktop
 
 # Mount the MapR cluster in /mapr
