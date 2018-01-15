@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Streamsets
+Comment=Open Streamsets
+Icon=applications-internet
+Comment=Open URL: http://MAPR_HOST:18630
+Icon[en_US]=applications-internet
+URL=http://MAPR_HOST:18630
+Type=Link

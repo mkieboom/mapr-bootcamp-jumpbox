@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=MapR DataScience Refinery
+Comment=Open MapR DataScience Refinery
+Icon=applications-internet
+Comment=Open URL: http://MAPR_HOST:9995
+Icon[en_US]=applications-internet
+URL=http://MAPR_HOST:9995
+Type=Link
