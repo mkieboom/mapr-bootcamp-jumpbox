@@ -24,6 +24,3 @@ sed -i "s/MAPR_HOST/$MAPR_CLDB_HOSTS/g" /mount-maprfs-script.sh
 
 # Make all hyperlinks executable
 chmod +x /headless/Desktop/*.desktop
-
-# Launch terminal to keep the container alive
-/bin/bash

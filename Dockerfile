@@ -55,4 +55,5 @@ RUN mv mapr-ansible-playbooks/bootcamp-dataset /headless/Desktop/
 ADD /mount-maprfs-launch.sh /headless/Desktop/
 RUN chmod +x /headless/Desktop/*.sh
 
-CMD sudo -E /launch-jumpbox.sh
+# Run the launch script and use a tail to keep the container running
+CMD sudo -E /launch-jumpbox.sh && tail -f /headless/wm.log
