@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=MapR MCS
+Comment=Open MapR MCS
+Icon=applications-internet
+Comment=Open URL: https://MAPR_HOST:8443
+Icon[en_US]=applications-internet
+URL=https://MAPR_HOST:8443
+Type=Link

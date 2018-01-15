@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Minio S3
+Comment=Open Minio S3
+Icon=applications-internet
+Comment=Open URL: http://MAPR_HOST:9000
+Icon[en_US]=applications-internet
+URL=http://MAPR_HOST:9000
+Type=Link
