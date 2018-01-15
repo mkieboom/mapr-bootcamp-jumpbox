@@ -41,7 +41,12 @@ RUN sudo mkdir /mapr
 #########################################################################
 
 RUN git clone https://github.com/mkieboom/mapr-ansible-playbooks
+
+# Place the example images on the desktop
 RUN mv mapr-ansible-playbooks/bootcamp-dataset/example_images /headless/Desktop/
+
+# Place the scripts, streamsets pipelines and DSR notebook also on the desktop
+RUN mv mapr-ansible-playbooks/bootcamp-dataset /headless/Desktop/
 
 #########################################################################
 # MapR Jumpbox - launch

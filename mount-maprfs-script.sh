@@ -1,3 +1,7 @@
-echo "Mounting MapR Filesystem in /mapr"
+echo "Mounting MapR Filesystem in /mapr using simple mount command:"
+echo ""
+echo "mount -o vers=3,hard,nolock MAPR_HOST:/mapr /mapr"
+echo ""
 mount -o vers=3,hard,nolock MAPR_HOST:/mapr /mapr
-read -n 1 -s -r -p "Mount completed. Open a 'filebrowser' and look for the /mapr folder. \nPress any key to close this window."
+echo "Mount completed. Open a 'filebrowser' and look for the /mapr folder."
+read -n 1 -s -r -p "Press any key to close this window."
