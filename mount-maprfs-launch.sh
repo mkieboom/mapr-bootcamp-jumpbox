@@ -1,0 +1,1 @@
+xfce4-terminal -e 'sh -c "bash /mount-maprfs-script.sh"'
