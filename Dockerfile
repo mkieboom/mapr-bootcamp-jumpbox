@@ -6,8 +6,8 @@ ENV VNC_PW=maprbootcamp
 # Switch to root user
 USER root
 
-# Install ssh client and nfs libraries and mousepad (graphical text editor)
-RUN yum install -y git openssh-clients nfs-utils nfs-utils-lib mousepad && \
+# Install ssh client, nfs libraries, mousepad (graphical text editor), xdg-utils (to set default apps)
+RUN yum install -y git openssh-clients nfs-utils nfs-utils-lib mousepad xdg-utils && \
     yum clean all && \
     rm -rf /var/cache/yum
 
