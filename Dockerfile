@@ -6,11 +6,15 @@ ENV VNC_PW=maprbootcamp
 # Switch to root user
 USER root
 
-# Install ssh client and nfs libraries
-RUN yum install -y git openssh-clients nfs-utils nfs-utils-lib && \
+# Install ssh client and nfs libraries and mousepad (graphical text editor)
+RUN yum install -y git openssh-clients nfs-utils nfs-utils-lib mousepad && \
     yum clean all && \
     rm -rf /var/cache/yum
 
+########################################################################
+# Set default applications for hyperlinks
+########################################################################
+RUN sed -ie "s|firefox.desktop|chromium-browser.desktop|g" /usr/share/applications/mimeapps.list
 
 #########################################################################
 # MapR Jumpbox - add basics (background image)
