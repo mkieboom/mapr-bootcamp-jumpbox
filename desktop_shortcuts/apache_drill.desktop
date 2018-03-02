@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Apache Drill
+Comment=Open Apache Drill
+Icon=applications-internet
+Comment=Open URL: http://MAPR_HOST:8047
+Icon[en_US]=applications-internet
+URL=http://MAPR_HOST:8047
+Type=Link
